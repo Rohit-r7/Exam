@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'styles/mystyle.css' %}">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <a href="">
+                <li class="logo">
+                    <img src="{% static 'images/logo.png' %}" alt="">
+                </li>
+            </a>
+            <a href="{% url 'home:hom' %}">
+                <li class="home">
+                    HOME
+                </li>
+            </a>
+            <a href="{% url 'home:abt' %}">
+                <li>
+                    ABOUT US
+                </li>
+            </a>
+            <a href="{% url 'home:aca' %}">
+                <li>
+                    ACADEMIC
+                </li>
+            </a>
+            <a href="{% url 'home:std' %}">
+                <li>
+                    STUDENTS INFO
+                </li>
+            </a>
+            <a href="{% url 'home:con' %}">
+                <li>
+                    CONTACT
+                </li>
+            </a>
+        </ul>
+    </nav>
+    <div class="dance">
+        <h1 class="heading">Welcome to Kendriya Vidyalaya </h1>
+        <p>KENDRIYA VIDYALAYA SANGHATAN was established in 1965 <br> under the noble patronage of noted academicians
+            comprising</p>
+        <a href="">
+            <button class="read">
+                Read More
+            </button>
+        </a>
+
+    </div>
+    
+    <div class="fcit">
+        <p id="head">OUR FACILITIES</p>
+        <div class="spec"></div>
+        <p class="staff">EXPERIENCED STAFF</p>
+        <p class="content">We have well experienced and competent staff and <br> they are guiding and supporting our students in all <br> fields.</p>
+
+        <p class="lib"> E - LIBRARY</p>
+        <p class="conts">In addition to a collection of wide variety of books,<br> we provide a digital library facility for the benefit of <br>students and staff.</p>
+
+        <p class="bus">SCHOOL BUS SERVICE</p>
+        <p class="cont">We have buses plying all the major routes. The <br> majority of students avail school bus facility.</p>
+
+        <p class="act">OTHER ACTIVITIES</p>
+        <p class="con">We are giving importance to Co-curricular activities<br> like Basketball, Rollerskating, Chess, Keyboard,<br> Taekwondo, Dance & music, Yoga classes and <br>coaching is given by experienced staff.</p>
+
+    </div>
+    <div class="middle">
+        <div class="child">Management <img src="https://bhavansschoolchevayur.org/images/profile-icon.png" alt="" class="img"></div>
+        <div class="child">Academic <img src="https://bhavansschoolchevayur.org/images/academic-icon.png" alt="" class="aca"></div>
+        <div class="child">Students <img src="https://bhavansschoolchevayur.org/images/student-icon.png" alt="" class="std"></div>
+        <div class="child">Facility <img src="https://bhavansschoolchevayur.org/images/facility-icon.png" alt="" class="fct"></div>
+        <div class="child">PTA <img src="https://bhavansschoolchevayur.org/images/pta-icon.png" alt="" class="pta"></div>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,299 @@
+body{
+    height: 1500px;
+    background-color:darkcyan ;
+}
+nav{
+    height: 110px;
+    width: 100%;
+    background-color: cadetblue;
+    position: sticky;
+    top: 10px;
+    z-index: 1;
+    
+}
+.logo{
+    padding: 10px;
+    
+}
+.home{
+    
+    padding-left: 280px;
+    
+}
+nav li{
+    
+    display: inline;
+    padding-left: 40px;
+    color: white;
+
+}
+ul a {
+    text-decoration: none;
+    padding-left: 40px;
+}
+.dance{
+    
+    background-image: url('http://bhavansschoolchevayur.org/manage//uploads/gallery/311ca0005de592960c6b143338273603.jpg');
+    height: 700px;
+    /* width: 100%; */
+    width: 1300px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 180px;
+}
+.heading{
+    color: aliceblue;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 16px;
+    left: 170px;
+    top: 180px;
+
+}
+.read{
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 170px;
+    top: 500px;
+    background: none;
+    color: aliceblue;
+    border: 2px white solid;
+
+
+}
+.read:hover{
+    background-color:cadetblue ;
+}
+.middle{
+    position: absolute;
+    top: 800px;
+    left: 89px;
+
+    
+    height: 200px;
+    width: 1300px;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+}
+.child{
+border: 2px;
+background-color: cadetblue;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+padding-top: 60px;
+
+}
+.child:hover{
+    transform: translateY(-10px);
+}
+.img{
+    position: absolute;
+    top: 100px;
+    left: 110px;
+}
+.aca{
+    position: absolute;
+    top: 100px;
+    left: 110px;
+    padding-left: 270px;
+
+}
+.std{
+    position: absolute;
+    top: 100px;
+    left: 110px;
+    padding-left: 530px;
+
+}
+.fct{
+    position: absolute;
+    top: 100px;
+    left: 110px;
+    padding-left: 790px;
+
+}
+.pta{
+    position: absolute;
+    top: 100px;
+    left: 110px;
+    padding-left: 1050px;
+
+}
+
+.fcit{
+    /* text-align: center; */
+    background-color: white;
+    padding-left: 70px;
+    height: 700px;
+    width: 1395px;
+    color: white;
+    position: absolute;
+    top: 900px;
+    left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+#head{
+    font-size: 30px;
+    /* text-align: center; */
+    position: absolute;
+    top: 80px;
+    left: 650px;
+    width: 300px;
+    color:blue;
+}
+.spec{
+    position: absolute;
+    top: 160px;
+    left: 570px;
+    background-image: url('https://bhavansschoolchevayur.org/images/facility-img.jpg');
+    background-repeat: no-repeat;
+    height: 460px;
+    width: 600px;
+}
+.staff{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+.content{
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    top: 225px;
+}
+.lib{
+    color: black;
+    position: absolute;
+    top: 450px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+.conts{
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    top: 495px;
+
+}
+.bus{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    left: 1000px;
+
+}
+.cont{
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    top: 225px;
+    left: 1000px;
+
+}
+.act{
+    color: black;
+    position: absolute;
+    top: 450px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    left: 1000px;
+}
+.con{
+    color: black;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    top: 495px;
+    left: 1000px;   
+
+}
+.back{
+   height: 400px;
+    background-image: url('https://www.prospects.ac.uk/images/vacancy/864316/uherts-48487894958.jpg');
+    background-repeat: no-repeat;
+}
+.contnt{
+    width: 600px;
+    position: absolute;
+    
+    left: 500px;
+    top: 0px;
+}
+.size{
+    font-size: 18px;
+}
+.academic{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    top: 30px;
+
+}
+.students{
+    position: absolute;
+    /* text-align: left; */
+    /* top: 00px; */
+    left: 100px;
+}
+.second{
+    position: absolute;
+    top: 200px;
+    left: 530px;
+}
+.third{
+    position: absolute;
+    top: 250px;
+    left: 350px;
+}
+.forth{
+    position: absolute;
+    top: 350px;
+    left: 310px;
+}
+.tab{
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 550px;
+    font-size: 25px;
+    
+}
+
+.tab,tr,td{
+    border: 1px black solid;
+}
+.tabs{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    font-size: 25px;
+    
+}
+
+.tabs,tr,td{
+    border: 1px black solid;
+}
+h2{
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}

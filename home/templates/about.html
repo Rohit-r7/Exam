@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'styles/mystyle.css' %}">
+</head>
+<body>
+        <nav>
+            <ul>
+                <a href="">
+                    <li class="logo">
+                        <img src="{% static 'images/logo.png' %}" alt="">
+                    </li>
+                </a>
+                <a href="{% url 'home:hom' %}">
+                    <li class="home">
+                        HOME
+                    </li>
+                </a>
+                <a href="{% url 'home:abt' %}">
+                    <li>
+                        ABOUT US
+                    </li>
+                </a>
+                <a href="{% url 'home:aca' %}">
+                    <li>
+                        ACADEMIC
+                    </li>
+                </a>
+                <a href="{% url 'home:std' %}">
+                    <li>
+                        STUDENTS INFO
+                    </li>
+                </a>
+                <a href="{% url 'home:con' %}">
+                    <li>
+                        CONTACT
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div class="col-lg-12 academic">
+            ABOUT US
+        </div>
+        <div class="col-lg-6 back"></div>
+        <div class="col-lg-6 contnt">
+            <p class="size">The Kendriya Vidyalaya Sangathan (transl. Central School Organization) is a system of central government schools in India that are instituted under the aegis of the Ministry of Education, Government of India.<br> As of July 2022, it has a total of 1,248 schools in India,<br> and three abroad in Moscow, Tehran and Kathmandu.<br> It is one of the world's largest chains of schools and also the largest chain of<br> schools in India is controlled by 25 Regional Offices and 05 ZIETs <br>(Zonal Institute of Education and Training) under KVS (HQ).</p>
+        </div>
+    </body>
+</html>

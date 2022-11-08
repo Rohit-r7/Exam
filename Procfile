@@ -1,1 +1,1 @@
-web: gunicorn hotel_management.wsgi --log-file -
+web: gunicorn school.wsgi --log-file -
